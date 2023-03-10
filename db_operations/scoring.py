@@ -59,11 +59,14 @@ class Team():
         return True
 
     def load_db(self):
+        '''updates self.all_flags'''
         with open("flags.json", "r",encoding='utf-8') as jsonFile:
             self.all_flags = json.load(jsonFile)
 
 
     def update_db(self): 
+        '''updates self.all_flags allowing the player to get correct score for submitted flag
+        writes the new self.score to the database and updates the value of flags in the database'''
         with open("flags.json", "w",encoding='utf-8') as jsonFile:
             json.dump(self.all_flags, jsonFile, indent=4)
             print('db updated')

@@ -1,4 +1,4 @@
-from scoring import Session
+from scoring_db import Session
 
 session = Session()
 

@@ -1,5 +1,5 @@
 import  os, time
-from scoring import Scoreboard
+from legacy_json.scoring import Scoreboard
 
 
 scoreboard = Scoreboard()

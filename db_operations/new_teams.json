@@ -1,0 +1,26 @@
+{
+   "aaa": {
+       "password": "a",
+       "flags": [],
+       "score": 1,
+       "color": "red"
+   },
+   "bbb": {
+       "password": "b",
+       "flags": [],
+       "score": 2,
+       "color": "green"
+   },
+   "ccc": {
+       "password": "c",
+       "flags": [],
+       "score": 3,
+       "color": "yellow"
+   },
+   "ddd": {
+       "password": "d",
+       "flags": [],
+       "score": 4,
+       "color": "blue"
+   }
+}

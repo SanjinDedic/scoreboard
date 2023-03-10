@@ -1,0 +1,38 @@
+{
+    "aaa": {
+        "password": "a",
+        "flags": [
+            "VCC{R3V34L_Y0UR53LF}",
+            "VCC{5N4K35_C0NQU3R3D}"
+
+        ],
+        "score": 1060,
+        "color": "red"
+    },
+    "bbb": {
+        "password": "b",
+        "flags": [
+            "VCC{OCTOCHAR}",
+            "VCC{W4RM1N6_UP}"
+
+        ],
+        "score": 1062,
+        "color": "green"
+    },
+    "ccc": {
+        "password": "c",
+        "flags": [
+            "VCC{Z1P_Z1PPY_Y34}",
+            "VCC{QU1ZZ35_4R3_QU1ZZ1C4L}"
+
+        ],
+        "score": 1016,
+        "color": "yellow"
+    },
+    "ddd": {
+        "password": "d",
+        "flags": [],
+        "score": 817,
+        "color": "blue"
+    }
+}

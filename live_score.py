@@ -1,9 +1,9 @@
 import  os, time
-from legacy_json.scoring import Scoreboard
+from scoring_db import Scoreboard
 
 
-scoreboard = Scoreboard()
-scoreboard.load_teams("teams_status.json")
+scoreboard = Scoreboard('test.db')
+scoreboard.load_teams()
 
 
 while True:

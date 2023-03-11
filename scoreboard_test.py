@@ -10,5 +10,5 @@ for team in scoreboard.teams:
 scoreboard.teams[3].score += 2222
 
 scoreboard.update_teams()
-
+#Rankings after update
 scoreboard.print_rankings()
